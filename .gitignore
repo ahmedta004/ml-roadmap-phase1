@@ -1,0 +1,37 @@
+# --- Python & System ---
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# --- Virtual Environments ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Data & Models (Crucial) ---
+*.csv
+*.tsv
+*.json
+*.jpg
+*.jpeg
+*.png
+*.pkl
+*.h5
+*.pth
+*.pt
+data/
+models/
+dest/
+
+# --- VS Code Settings ---
+.vscode/
+*.code-workspace
+
+# --- Project Specific ---
+projects/hotdog_classifier/hotdog_data/
